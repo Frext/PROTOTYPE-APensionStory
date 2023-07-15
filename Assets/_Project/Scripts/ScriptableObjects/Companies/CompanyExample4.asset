@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9739e335e87a4354c87d9675fce585a9, type: 3}
-  m_Name: CompanyValue
+  m_Script: {fileID: 11500000, guid: 2f9387c6c2f1fc14a95309da112e4a9e, type: 3}
+  m_Name: CompanyExample4
   m_EditorClassIdentifier: 
-  value: 6000
+  companyName: "\xD6rnek 5"
+  companyValue: 5090

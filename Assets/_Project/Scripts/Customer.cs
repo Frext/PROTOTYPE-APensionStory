@@ -8,6 +8,7 @@ namespace _Project.Scripts
     {
         [SerializeField] private RoomKeeper roomKeeperScript;
         [SerializeField] private IntObject moneySO;
+        [SerializeField] private CompanyObject companyObjectSO;
         [Space]
         
         [SerializeField] private float stayDuration = 15; 
@@ -52,6 +53,7 @@ namespace _Project.Scripts
 
                         roomKeeperScript.LeaveRoom(selectedRoom);
                         moneySO.value += (int)stayDuration * 2;
+                        companyObjectSO.companyValue += (int)stayDuration * 2 / 5;
                         
                         target = outPos;
                     }

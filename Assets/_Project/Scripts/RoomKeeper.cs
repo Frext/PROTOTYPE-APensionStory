@@ -15,7 +15,7 @@ namespace _Project.Scripts
     
     public class RoomKeeper : MonoBehaviour
     {
-        public List<Room> roomsList = new ();
+        List<Room> roomsList = new ();
 
         void Start()
         {

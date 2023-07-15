@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 70281503}
   m_Layer: 5
-  m_Name: Field
+  m_Name: Field2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,6 +344,7 @@ Transform:
   m_Children:
   - {fileID: 601200696}
   - {fileID: 628322651}
+  - {fileID: 1082344532}
   m_Father: {fileID: 1345243335}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -946,7 +947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   m_LocalRotation: {x: 9.022188e-10, y: 1, z: -0.0000009341166, w: -0.0000003948808}
-  m_LocalPosition: {x: -4.5, y: 2.25, z: 5}
+  m_LocalPosition: {x: -4.25, y: 2.25, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1067,8 +1068,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1968,7 +1969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba5f519e7bcb74a4883e24881f8b97ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomsList: []
 --- !u!1 &636533814
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,8 +2036,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2211,8 +2211,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287861651
-  m_fontColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2346,8 +2346,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285198726
-  m_fontColor: {r: 0.5254902, g: 0.94509804, b: 0.41568628, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2481,8 +2481,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2869,8 +2869,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3004,8 +3004,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3139,8 +3139,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3217,7 +3217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976027911}
   m_Layer: 5
-  m_Name: Field
+  m_Name: Field5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3356,7 +3356,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba5f519e7bcb74a4883e24881f8b97ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomsList: []
+--- !u!1 &1082344531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082344532}
+  - component: {fileID: 1082344533}
+  m_Layer: 0
+  m_Name: OtherCompaniesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1082344532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082344531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 133926701}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1082344533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082344531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c376e8e07a03e4145a2b6fc693f3bdc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  companiesList:
+  - incrementEvery15SecondsValue: 30
+    companyObjectSO: {fileID: 11400000, guid: be2ad297907b0c94696aeb683f2bd7b5, type: 2}
+  - incrementEvery15SecondsValue: 15
+    companyObjectSO: {fileID: 11400000, guid: e62c02ab2e71d5140ae26b4db2d5a603, type: 2}
+  - incrementEvery15SecondsValue: 50
+    companyObjectSO: {fileID: 11400000, guid: 207c30fc3f7c03948905eb96d3cbbcf8, type: 2}
+  - incrementEvery15SecondsValue: 12
+    companyObjectSO: {fileID: 11400000, guid: 76c5d720b79cc3f42aa47c913114198d, type: 2}
 --- !u!1 &1209440537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3583,8 +3635,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3796,11 +3848,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1249530110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 888df0c76ece40347ba5eba5e693f1ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 911bc43c96c423e46a3fb3abdb1c3fab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   precedingText: "\u015Eirket De\u011Feri"
-  intObjectSO: {fileID: 11400000, guid: 8662c0e2046e2de40b94169246ce0c81, type: 2}
+  companyObjectSO: {fileID: 11400000, guid: e0be7edd9677d1048aed86f44accb0f9, type: 2}
 --- !u!1 &1310231811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4113,6 +4165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1383825753}
+  - component: {fileID: 1383825754}
   m_Layer: 5
   m_Name: Fields
   m_TagString: Untagged
@@ -4142,9 +4195,33 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -550, y: 120}
+  m_AnchoredPosition: {x: -564.5, y: 103.5}
   m_SizeDelta: {x: 200, y: 370}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1383825754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383825752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 596c2385bd93a154faee0ebcd003f2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fieldsList:
+  - {fileID: 1745119863}
+  - {fileID: 70281502}
+  - {fileID: 1632405583}
+  - {fileID: 2048706091}
+  - {fileID: 976027910}
+  companyObjectsList:
+  - {fileID: 11400000, guid: e0be7edd9677d1048aed86f44accb0f9, type: 2}
+  - {fileID: 11400000, guid: be2ad297907b0c94696aeb683f2bd7b5, type: 2}
+  - {fileID: 11400000, guid: e62c02ab2e71d5140ae26b4db2d5a603, type: 2}
+  - {fileID: 11400000, guid: 207c30fc3f7c03948905eb96d3cbbcf8, type: 2}
+  - {fileID: 11400000, guid: 76c5d720b79cc3f42aa47c913114198d, type: 2}
 --- !u!1 &1453502842
 GameObject:
   m_ObjectHideFlags: 0
@@ -4347,8 +4424,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287861651
-  m_fontColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4482,8 +4559,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4289440683
-  m_fontColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4845,8 +4922,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285198726
-  m_fontColor: {r: 0.5254902, g: 0.94509804, b: 0.41568628, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5115,8 +5192,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4285198726
-  m_fontColor: {r: 0.5254902, g: 0.94509804, b: 0.41568628, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5193,7 +5270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1632405584}
   m_Layer: 5
-  m_Name: Field
+  m_Name: Field3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5232,7 +5309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1745119864}
   m_Layer: 5
-  m_Name: Field
+  m_Name: Field1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5705,8 +5782,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287861651
-  m_fontColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5789,7 +5866,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048706092}
   m_Layer: 5
-  m_Name: Field
+  m_Name: Field4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5885,8 +5962,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287861651
-  m_fontColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+    rgba: 4286611584
+  m_fontColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

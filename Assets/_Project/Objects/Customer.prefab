@@ -113,6 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomKeeperScript: {fileID: 0}
   moneySO: {fileID: 11400000, guid: 9edf15967a391bb4d97c5744cffaca64, type: 2}
+  companyObjectSO: {fileID: 11400000, guid: e0be7edd9677d1048aed86f44accb0f9, type: 2}
   stayDuration: 10
   waitPos: {x: -5.5, y: 0.494845, z: -1}
   outPos: {x: 2.5, y: 0.494845, z: 1.25}
