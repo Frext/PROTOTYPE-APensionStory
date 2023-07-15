@@ -11,6 +11,9 @@ namespace _Project.Scripts
         Vector2 lastMousePosition;
         bool isLeftMouseButtonPressed;
         
+        private float smoothTime = 0.05f;
+        private Vector3 velocity = Vector3.zero;
+        
         void Start()
         {
             var position = gameObject.transform.position;
@@ -44,8 +47,8 @@ namespace _Project.Scripts
                 Vector3 constrainedPos = gameObject.transform.position;
                 constrainedPos.x = Mathf.Clamp(gameObject.transform.position.x + mouseDelta.x, minX, maxX);
                 constrainedPos.y = Mathf.Clamp(gameObject.transform.position.y - mouseDelta.y, minY, maxY);
-
-                gameObject.transform.position = Vector3.Lerp(constrainedPos, gameObject.transform.position, Time.deltaTime);
+                
+                transform.position = Vector3.SmoothDamp(transform.position, constrainedPos, ref velocity, smoothTime);
 
                 lastMousePosition = currentMousePosition;
             }
