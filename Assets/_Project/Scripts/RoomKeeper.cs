@@ -11,11 +11,12 @@ namespace _Project.Scripts
     {
         public Transform transform;
         public bool isBusy;
+        public bool isDirty;
     }
     
     public class RoomKeeper : MonoBehaviour
     {
-        List<Room> roomsList = new ();
+        public List<Room> roomsList = new();
 
         void Start()
         {
@@ -48,7 +49,7 @@ namespace _Project.Scripts
         {
             foreach (var room in roomsList)
             {
-                if (!room.isBusy)
+                if (!room.isBusy && !room.isDirty)
                 {
                     room.isBusy = true;
                     
@@ -62,19 +63,46 @@ namespace _Project.Scripts
         public void LeaveRoom(Room room)
         {
             room.isBusy = false;
+            room.isDirty = true;
         }
         
         public bool IsThereAvailableRoom()
         {
             foreach (var room in roomsList)
             {
-                if (!room.isBusy)
+                if (!room.isBusy && !room.isDirty)
                 {
                     return true;
                 }
             }
 
             return false;
+        }
+
+        public bool IsClean(Transform transform)
+        {
+            foreach (var room in roomsList)
+            {
+                if (room.transform == transform)
+                {
+                    return room.isDirty;
+                }
+            }
+
+            return false;
+        }
+
+        public void CleanRoom(Transform transform)
+        {
+            foreach (var room in roomsList)
+            {
+                if (room.transform == transform)
+                {
+                    room.isDirty = false;
+                    
+                    break;
+                }
+            }
         }
     }
 }
