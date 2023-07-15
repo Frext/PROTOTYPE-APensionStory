@@ -6,21 +6,23 @@ namespace _Project.Scripts
     {
         [SerializeField] private GameObject roomPrefab;
         [SerializeField] private Vector3 spawnPoint;
+        [SerializeField] private GameObject toggleDeleteButton;
 
-        int count = 0;
+        int count;
         
         public void Add()
         {
-            if (count > 2)
-            {
-                return;
-            }
-            
             Instantiate(roomPrefab, spawnPoint, Quaternion.identity);
 
             spawnPoint += new Vector3(-1.5f, 0, 0);
 
             count++;
+            
+            if (count > 2)
+            {
+                toggleDeleteButton.SetActive(true);
+                gameObject.SetActive(false);
+            }
         }
     }
 }

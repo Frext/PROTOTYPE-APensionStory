@@ -26,13 +26,21 @@ namespace _Project.Scripts
         {
             while (true)
             {
+                for (int i = 0; i < roomsList.Count; i++)
+                {
+                    if (roomsList[i].transform == null)
+                    {
+                        roomsList.RemoveAt(i);
+                    }
+                }
+                
                 foreach (var go in GameObject.FindGameObjectsWithTag("Room"))
                 {
                     if (roomsList.All(room => room.transform != go.transform))
                         roomsList.Add(new Room { transform = go.transform });
                 }
-
-                yield return new WaitForSeconds(5);
+                
+                yield return new WaitForSeconds(1);
             }
         }
 

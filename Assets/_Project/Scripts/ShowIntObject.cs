@@ -29,7 +29,7 @@ namespace _Project.Scripts
 			while (true)
 			{
 				textMeshPro.text = precedingText + "\n" + intObjectSO.value;
-				yield return new WaitForSeconds(.5f);
+				yield return new WaitForSeconds(.25f);
 			}
 		}
 
