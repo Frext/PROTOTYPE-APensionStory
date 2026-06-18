@@ -1,4 +1,4 @@
-# 🏨 Prototype - A Pension Story
+# 🏨 Prototype - Pension Tycoon
 
 [![Unity Version](https://img.shields.io/badge/Unity-2021.3.18f1-blue.svg?style=flat&logo=unity)](https://unity.com/)
 [![Language](https://img.shields.io/badge/Language-C%23-green.svg?style=flat&logo=c-sharp)](https://learn.microsoft.com/en-us/dotnet/csharp/)
