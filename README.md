@@ -4,7 +4,7 @@
 [![Language](https://img.shields.io/badge/Language-C%23-green.svg?style=flat&logo=c-sharp)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 [![Render Pipeline](https://img.shields.io/badge/Pipeline-URP-orange.svg?style=flat)](https://docs.unity3d.com/6000.4/Documentation/Manual/urp/urp-introduction.html)
 
-Prototype for a strategic hostel management simulator where you build and expand your business.
+Prototype for a hostel management simulator where you build and expand your business.
 
 ---
 
