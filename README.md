@@ -1,10 +1,10 @@
-# 🏨 Prototype - Pension Tycoon
+# 🏨 Pension Tycoon (Prototype)
 
 [![Unity Version](https://img.shields.io/badge/Unity-2021.3.18f1-blue.svg?style=flat&logo=unity)](https://unity.com/)
 [![Language](https://img.shields.io/badge/Language-C%23-green.svg?style=flat&logo=c-sharp)](https://learn.microsoft.com/en-us/dotnet/csharp/)
 [![Render Pipeline](https://img.shields.io/badge/Pipeline-URP-orange.svg?style=flat)](https://docs.unity3d.com/6000.4/Documentation/Manual/urp/urp-introduction.html)
 
-Prototype for [a hostel management simulator](https://github.com/Frext/PensionTycoon) where you build and expand your business.
+Prototype for [a hostel management simulator](https://github.com/Frext/pension-tycoon) where you build and expand your business.
 
 ---
 
